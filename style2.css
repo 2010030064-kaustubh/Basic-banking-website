@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(31, 115, 157);
+}
+h2{
+    position: relative;
+    font-size: 6em;
+    letter-spacing: 5px;
+    color: black;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    outline: none;
+}
+#registerbtn{
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    background-color: rgb(118, 133, 6);
+    color: rgb(255, 255, 255,0.25);
+    z-index: 1;
+    font-style: italic;
+}
